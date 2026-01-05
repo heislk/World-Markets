@@ -32,8 +32,8 @@ A premium, interactive dashboard visualizing global stock market indices in real
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/heislk/world-markets-map.git
-   cd world-markets-map
+   git clone https://github.com/heislk/World-Markets
+   cd world-markets
    ```
 
 2. Install dependencies:
