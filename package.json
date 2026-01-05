@@ -1,0 +1,20 @@
+{
+  "name": "world-markets-map",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "d3-scale": "^4.0.2",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-simple-maps": "^3.0.0",
+    "react-tooltip": "^5.28.0",
+    "yahoo-finance2": "^2.13.3"
+  }
+}

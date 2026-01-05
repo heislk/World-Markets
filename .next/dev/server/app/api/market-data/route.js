@@ -1,0 +1,10 @@
+var R=require("../../../chunks/[turbopack]_runtime.js")("server/app/api/market-data/route.js")
+R.c("server/chunks/node_modules_next_9d04221a._.js")
+R.c("server/chunks/node_modules_@sinclair_typebox_build_esm_55ca6ab6._.js")
+R.c("server/chunks/node_modules_yahoo-finance2_dist_esm_179cd8aa._.js")
+R.c("server/chunks/node_modules_psl_dist_psl_cjs_76236a3e._.js")
+R.c("server/chunks/node_modules_79a63371._.js")
+R.c("server/chunks/[root-of-the-server]__a4279dfd._.js")
+R.c("server/chunks/_next-internal_server_app_api_market-data_route_actions_f71dd863.js")
+R.m("[project]/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/app/api/market-data/route.js [app-route] (ecmascript)\" } [app-route] (ecmascript)")
+module.exports=R.m("[project]/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/app/api/market-data/route.js [app-route] (ecmascript)\" } [app-route] (ecmascript)").exports

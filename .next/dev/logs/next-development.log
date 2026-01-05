@@ -1,0 +1,3334 @@
+[00:00:00.696] Server  LOG     ✓ Ready in 441ms
+[00:00:03.975] Server  WARN    [yahoo-finance2] v2 is no longer maintained nor supported.  Please migrate to v3. See https://github.com/gadicc/yahoo-finance2/blob/dev/docs/UPGRADING.md for details.
+[00:00:03.997] Server  LOG     Please consider completing the survey at https://bit.ly/yahoo-finance-api-feedback if you haven't already; for more info see https://github.com/gadicc/node-yahoo-finance2/issues/764#issuecomment-2056623851.  This will only be shown once, but you can suppress this message in future with `yahooFinance.suppressNotices(['yahooSurvey'])`.
+[00:00:04.005] Server  LOG     Fetching crumb and cookies from https://finance.yahoo.com/quote/AAPL...
+[00:00:04.111] Server  ERROR   We expected a redirect to guce.yahoo.com, but got https://finance.yahoo.com/quote/AAPL/
+[00:00:04.111] Server  ERROR   We'll try to continue anyway - you can safely ignore this if the request succeeds
+[00:00:04.111] Server  LOG     Success. Cookie expires on Tue Jan 05 2027 06:20:03 GMT-0500 (Eastern Standard Time)
+[00:00:04.112] Server  LOG     fetch "https://query1.finance.yahoo.com/v1/test/getcrumb"
+[00:00:04.204] Server  LOG     New crumb: DfRmqBBHB6N
+[00:00:04.375] Server  ERROR   Failed to fetch ^GSPC SyntaxError: Unexpected token 'T', "Too Many Requests
+" is not valid JSON
+[00:00:04.418] Server  ERROR   Failed to fetch ^GSPTSE SyntaxError: Unexpected token 'T', "Too Many Requests
+" is not valid JSON
+[00:00:04.465] Server  ERROR   Failed to fetch ^DJI SyntaxError: Unexpected token 'T', "Too Many Requests
+" is not valid JSON
+[00:00:04.539] Server  ERROR   Failed to fetch ^IXIC SyntaxError: Unexpected token 'T', "Too Many Requests
+" is not valid JSON
+[00:00:04.598] Server  ERROR   Failed to fetch ^BVSP SyntaxError: Unexpected token 'T', "Too Many Requests
+" is not valid JSON
+[00:00:04.642] Server  ERROR   Failed to fetch ^FTSE SyntaxError: Unexpected token 'T', "Too Many Requests
+" is not valid JSON
+[00:00:04.699] Server  ERROR   Failed to fetch ^GDAXI SyntaxError: Unexpected token 'T', "Too Many Requests
+" is not valid JSON
+[00:00:04.757] Server  ERROR   Failed to fetch ^MXX SyntaxError: Unexpected token 'T', "Too Many Requests
+" is not valid JSON
+[00:00:04.808] Server  ERROR   Failed to fetch ^FCHI SyntaxError: Unexpected token 'T', "Too Many Requests
+" is not valid JSON
+[00:00:04.858] Server  ERROR   Failed to fetch ^STOXX50E SyntaxError: Unexpected token 'T', "Too Many Requests
+" is not valid JSON
+[00:00:04.902] Server  ERROR   Failed to fetch ^IPSA SyntaxError: Unexpected token 'T', "Too Many Requests
+" is not valid JSON
+[00:00:04.942] Server  ERROR   Failed to fetch ^MERV SyntaxError: Unexpected token 'T', "Too Many Requests
+" is not valid JSON
+[00:00:04.977] Server  ERROR   Failed to fetch ^IBEX SyntaxError: Unexpected token 'T', "Too Many Requests
+" is not valid JSON
+[00:00:05.019] Server  ERROR   Failed to fetch ^SSMI SyntaxError: Unexpected token 'T', "Too Many Requests
+" is not valid JSON
+[00:00:05.062] Server  ERROR   Failed to fetch ^N225 SyntaxError: Unexpected token 'T', "Too Many Requests
+" is not valid JSON
+[00:00:05.097] Server  ERROR   Failed to fetch ^HSI SyntaxError: Unexpected token 'T', "Too Many Requests
+" is not valid JSON
+[00:00:05.136] Server  ERROR   Failed to fetch ^BSESN SyntaxError: Unexpected token 'T', "Too Many Requests
+" is not valid JSON
+[00:00:05.173] Server  ERROR   Failed to fetch ^KS11 SyntaxError: Unexpected token 'T', "Too Many Requests
+" is not valid JSON
+[00:00:05.215] Server  ERROR   Failed to fetch 000001.SS SyntaxError: Unexpected token 'T', "Too Many Requests
+" is not valid JSON
+[00:00:05.253] Server  ERROR   Failed to fetch ^AXJO SyntaxError: Unexpected token 'T', "Too Many Requests
+" is not valid JSON
+[00:00:05.292] Server  ERROR   Failed to fetch ^NZ50 SyntaxError: Unexpected token 'T', "Too Many Requests
+" is not valid JSON
+[00:00:05.331] Server  ERROR   Failed to fetch ^TA125.TA SyntaxError: Unexpected token 'T', "Too Many Requests
+" is not valid JSON
+[00:00:05.394] Server  ERROR   Failed to fetch ^STI SyntaxError: Unexpected token 'T', "Too Many Requests
+" is not valid JSON
+[00:00:05.540] Browser WARN    [react-tooltip] Do not set `style.border`. Use `border` prop instead.
+[00:00:05.540] Browser WARN    [react-tooltip] Do not set `style.border`. Use `border` prop instead.
+[00:02:01.795] Server  LOG     ✓ Compiled in 6ms
+[00:02:02.788] Browser ERROR   ./components/WorldMap.js:66:37
+Parsing ecmascript source code failed
+  64 |
+  65 |                         { idx.changePercent ? Math.abs(idx.changePercent).toFixed(1) : '-' }%
+> 66 |                                     </text>
+     |                                     ^
+  67 |             </a>
+  68 |         </Marker>
+  69 |     );
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/WorldMap.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/WorldMap.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:02:02.788] Browser ERROR   ./components/WorldMap.js:66:38
+Parsing ecmascript source code failed
+  64 |
+  65 |                         { idx.changePercent ? Math.abs(idx.changePercent).toFixed(1) : '-' }%
+> 66 |                                     </text>
+     |                                      ^^^^^^
+  67 |             </a>
+  68 |         </Marker>
+  69 |     );
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./components/WorldMap.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/WorldMap.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:02:05.776] Browser ERROR   ./components/WorldMap.js:66:37
+Parsing ecmascript source code failed
+  64 |
+  65 |                         { idx.changePercent ? Math.abs(idx.changePercent).toFixed(1) : '-' }%
+> 66 |                                     </text>
+     |                                     ^
+  67 |             </a>
+  68 |         </Marker>
+  69 |     );
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/WorldMap.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/WorldMap.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:02:05.776] Browser ERROR   ./components/WorldMap.js:66:38
+Parsing ecmascript source code failed
+  64 |
+  65 |                         { idx.changePercent ? Math.abs(idx.changePercent).toFixed(1) : '-' }%
+> 66 |                                     </text>
+     |                                      ^^^^^^
+  67 |             </a>
+  68 |         </Marker>
+  69 |     );
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./components/WorldMap.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/WorldMap.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:02:05.776] Browser ERROR   ./components/WorldMap.js:66:37
+Parsing ecmascript source code failed
+  64 |
+  65 |                         { idx.changePercent ? Math.abs(idx.changePercent).toFixed(1) : '-' }%
+> 66 |                                     </text>
+     |                                     ^
+  67 |             </a>
+  68 |         </Marker>
+  69 |     );
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/WorldMap.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/WorldMap.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:02:05.776] Browser ERROR   ./components/WorldMap.js:66:38
+Parsing ecmascript source code failed
+  64 |
+  65 |                         { idx.changePercent ? Math.abs(idx.changePercent).toFixed(1) : '-' }%
+> 66 |                                     </text>
+     |                                      ^^^^^^
+  67 |             </a>
+  68 |         </Marker>
+  69 |     );
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./components/WorldMap.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/WorldMap.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:02:07.777] Browser ERROR   ./components/WorldMap.js:66:37
+Parsing ecmascript source code failed
+  64 |
+  65 |                         { idx.changePercent ? Math.abs(idx.changePercent).toFixed(1) : '-' }%
+> 66 |                                     </text>
+     |                                     ^
+  67 |             </a>
+  68 |         </Marker>
+  69 |     );
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/WorldMap.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/WorldMap.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:02:07.777] Browser ERROR   ./components/WorldMap.js:66:38
+Parsing ecmascript source code failed
+  64 |
+  65 |                         { idx.changePercent ? Math.abs(idx.changePercent).toFixed(1) : '-' }%
+> 66 |                                     </text>
+     |                                      ^^^^^^
+  67 |             </a>
+  68 |         </Marker>
+  69 |     );
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./components/WorldMap.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/WorldMap.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:02:07.777] Browser ERROR   ./components/WorldMap.js:66:37
+Parsing ecmascript source code failed
+  64 |
+  65 |                         { idx.changePercent ? Math.abs(idx.changePercent).toFixed(1) : '-' }%
+> 66 |                                     </text>
+     |                                     ^
+  67 |             </a>
+  68 |         </Marker>
+  69 |     );
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/WorldMap.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/WorldMap.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:02:07.777] Browser ERROR   ./components/WorldMap.js:66:38
+Parsing ecmascript source code failed
+  64 |
+  65 |                         { idx.changePercent ? Math.abs(idx.changePercent).toFixed(1) : '-' }%
+> 66 |                                     </text>
+     |                                      ^^^^^^
+  67 |             </a>
+  68 |         </Marker>
+  69 |     );
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./components/WorldMap.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/WorldMap.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:02:07.777] Browser ERROR   ./components/WorldMap.js:66:37
+Parsing ecmascript source code failed
+  64 |
+  65 |                         { idx.changePercent ? Math.abs(idx.changePercent).toFixed(1) : '-' }%
+> 66 |                                     </text>
+     |                                     ^
+  67 |             </a>
+  68 |         </Marker>
+  69 |     );
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/WorldMap.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/WorldMap.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:02:07.777] Browser ERROR   ./components/WorldMap.js:66:38
+Parsing ecmascript source code failed
+  64 |
+  65 |                         { idx.changePercent ? Math.abs(idx.changePercent).toFixed(1) : '-' }%
+> 66 |                                     </text>
+     |                                      ^^^^^^
+  67 |             </a>
+  68 |         </Marker>
+  69 |     );
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./components/WorldMap.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/WorldMap.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:03:18.763] Server  WARN    [yahoo-finance2] v2 is no longer maintained nor supported.  Please migrate to v3. See https://github.com/gadicc/yahoo-finance2/blob/dev/docs/UPGRADING.md for details.
+[00:03:18.769] Server  LOG     Please consider completing the survey at https://bit.ly/yahoo-finance-api-feedback if you haven't already; for more info see https://github.com/gadicc/node-yahoo-finance2/issues/764#issuecomment-2056623851.  This will only be shown once, but you can suppress this message in future with `yahooFinance.suppressNotices(['yahooSurvey'])`.
+[00:03:18.774] Server  LOG     Fetching crumb and cookies from https://finance.yahoo.com/quote/AAPL...
+[00:03:18.866] Server  ERROR   We expected a redirect to guce.yahoo.com, but got https://finance.yahoo.com/quote/AAPL/
+[00:03:18.866] Server  ERROR   We'll try to continue anyway - you can safely ignore this if the request succeeds
+[00:03:18.867] Server  LOG     Success. Cookie expires on Tue Jan 05 2027 06:23:18 GMT-0500 (Eastern Standard Time)
+[00:03:18.867] Server  LOG     fetch "https://query1.finance.yahoo.com/v1/test/getcrumb"
+[00:03:18.955] Server  LOG     New crumb: 4nDBVCqD.I6
+[00:03:19.028] Server  ERROR   Failed to fetch ^DJI, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:03:19.030] Server  ERROR   Failed to fetch ^GSPC, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:03:19.035] Server  ERROR   Failed to fetch ^IXIC, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:03:19.037] Server  ERROR   Failed to fetch ^GSPTSE, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:03:19.058] Server  ERROR   Failed to fetch ^BVSP, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:03:19.065] Server  ERROR   Failed to fetch ^MERV, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:03:19.067] Server  ERROR   Failed to fetch ^IPSA, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:03:19.077] Server  ERROR   Failed to fetch ^MXX, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:03:19.091] Server  ERROR   Failed to fetch ^FTSE, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:03:19.099] Server  ERROR   Failed to fetch ^GDAXI, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:03:19.101] Server  ERROR   Failed to fetch ^FCHI, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:03:19.109] Server  ERROR   Failed to fetch ^STOXX50E, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:03:19.118] Server  ERROR   Failed to fetch ^IBEX, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:03:19.130] Server  ERROR   Failed to fetch ^SSMI, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:03:19.139] Server  ERROR   Failed to fetch ^HSI, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:03:19.146] Server  ERROR   Failed to fetch ^STI, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:03:19.154] Server  ERROR   Failed to fetch ^N225, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:03:19.159] Server  ERROR   Failed to fetch ^BSESN, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:03:19.166] Server  ERROR   Failed to fetch ^KS11, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:03:19.179] Server  ERROR   Failed to fetch 000001.SS, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:03:19.182] Server  ERROR   Failed to fetch ^AXJO, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:03:19.186] Server  ERROR   Failed to fetch ^NZ50, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:03:19.192] Server  ERROR   Failed to fetch ^TA125.TA, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:03:19.313] Browser WARN    [react-tooltip] Do not set `style.border`. Use `border` prop instead.
+[00:03:19.313] Browser WARN    [react-tooltip] Do not set `style.border`. Use `border` prop instead.
+[00:04:07.697] Server  LOG     ✓ Compiled in 8ms
+[00:04:31.242] Server  ERROR   Failed to fetch ^IXIC, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:04:31.248] Server  ERROR   Failed to fetch ^DJI, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:04:31.250] Server  ERROR   Failed to fetch ^GSPC, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:04:31.263] Server  ERROR   Failed to fetch ^GSPTSE, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:04:31.276] Server  ERROR   Failed to fetch ^BVSP, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:04:31.280] Server  ERROR   Failed to fetch ^MERV, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:04:31.294] Server  ERROR   Failed to fetch ^IPSA, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:04:31.296] Server  ERROR   Failed to fetch ^MXX, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:04:31.307] Server  ERROR   Failed to fetch ^FTSE, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:04:31.316] Server  ERROR   Failed to fetch ^GDAXI, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:04:31.323] Server  ERROR   Failed to fetch ^FCHI, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:04:31.334] Server  ERROR   Failed to fetch ^IBEX, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:04:31.345] Server  ERROR   Failed to fetch ^STOXX50E, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:04:31.347] Server  ERROR   Failed to fetch ^SSMI, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:04:31.352] Server  ERROR   Failed to fetch ^N225, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:04:31.362] Server  ERROR   Failed to fetch ^HSI, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:04:31.376] Server  ERROR   Failed to fetch ^STI, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:04:31.378] Server  ERROR   Failed to fetch ^BSESN, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:04:31.379] Server  ERROR   Failed to fetch ^KS11, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:04:31.388] Server  ERROR   Failed to fetch 000001.SS, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:04:31.407] Server  ERROR   Failed to fetch ^AXJO, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:04:31.408] Server  ERROR   Failed to fetch ^NZ50, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:04:31.409] Server  ERROR   Failed to fetch ^TA125.TA, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:04:31.537] Browser WARN    [react-tooltip] Do not set `style.border`. Use `border` prop instead.
+[00:04:31.537] Browser WARN    [react-tooltip] Do not set `style.border`. Use `border` prop instead.
+[00:05:05.028] Server  LOG     ✓ Compiled in 2ms
+[00:05:11.194] Server  LOG     ✓ Compiled in 5ms
+[00:05:11.479] Server  ERROR   Failed to fetch ^DJI, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:05:11.481] Server  ERROR   Failed to fetch ^GSPTSE, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:05:11.483] Server  ERROR   Failed to fetch ^IXIC, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:05:11.484] Server  ERROR   Failed to fetch ^GSPC, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:05:11.510] Server  ERROR   Failed to fetch ^MERV, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:05:11.516] Server  ERROR   Failed to fetch ^IPSA, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:05:11.534] Server  ERROR   Failed to fetch ^MXX, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:05:11.542] Server  ERROR   Failed to fetch ^FTSE, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:05:11.543] Server  ERROR   Failed to fetch ^GDAXI, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:05:11.544] Server  ERROR   Failed to fetch ^BVSP, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:05:11.564] Server  ERROR   Failed to fetch ^FCHI, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:05:11.571] Server  ERROR   Failed to fetch ^STOXX50E, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:05:11.573] Server  ERROR   Failed to fetch ^IBEX, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:05:11.576] Server  ERROR   Failed to fetch ^SSMI, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:05:11.593] Server  ERROR   Failed to fetch ^N225, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:05:11.600] Server  ERROR   Failed to fetch ^STI, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:05:11.604] Server  ERROR   Failed to fetch ^HSI, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:05:11.605] Server  ERROR   Failed to fetch ^BSESN, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:05:11.626] Server  ERROR   Failed to fetch ^KS11, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:05:11.628] Server  ERROR   Failed to fetch 000001.SS, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:05:11.631] Server  ERROR   Failed to fetch ^AXJO, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:05:11.633] Server  ERROR   Failed to fetch ^NZ50, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:05:11.653] Server  ERROR   Failed to fetch ^TA125.TA, using fallback "Unexpected token 'T', \"Too Many Requests\r\n\" is not valid JSON"
+[00:05:11.771] Browser WARN    [react-tooltip] Do not set `style.border`. Use `border` prop instead.
+[00:05:11.771] Browser WARN    [react-tooltip] Do not set `style.border`. Use `border` prop instead.
+[00:07:00.903] Server  LOG     ✓ Compiled in 5ms
+[00:07:55.037] Server  LOG     ✓ Compiled in 2ms
+[00:08:22.677] Server  WARN    [yahoo-finance2] v2 is no longer maintained nor supported.  Please migrate to v3. See https://github.com/gadicc/yahoo-finance2/blob/dev/docs/UPGRADING.md for details.
+[00:08:22.684] Server  ERROR   Failed to fetch ^GSPC, using fallback "Force Fallback for Demo correctness"
+[00:08:22.685] Server  ERROR   Failed to fetch ^DJI, using fallback "Force Fallback for Demo correctness"
+[00:08:22.685] Server  ERROR   Failed to fetch ^IXIC, using fallback "Force Fallback for Demo correctness"
+[00:08:22.685] Server  ERROR   Failed to fetch ^GSPTSE, using fallback "Force Fallback for Demo correctness"
+[00:08:22.685] Server  ERROR   Failed to fetch ^MXX, using fallback "Force Fallback for Demo correctness"
+[00:08:22.686] Server  ERROR   Failed to fetch ^BVSP, using fallback "Force Fallback for Demo correctness"
+[00:08:22.686] Server  ERROR   Failed to fetch ^MERV, using fallback "Force Fallback for Demo correctness"
+[00:08:22.686] Server  ERROR   Failed to fetch ^IPSA, using fallback "Force Fallback for Demo correctness"
+[00:08:22.686] Server  ERROR   Failed to fetch ^FTSE, using fallback "Force Fallback for Demo correctness"
+[00:08:22.687] Server  ERROR   Failed to fetch ^GDAXI, using fallback "Force Fallback for Demo correctness"
+[00:08:22.687] Server  ERROR   Failed to fetch ^FCHI, using fallback "Force Fallback for Demo correctness"
+[00:08:22.687] Server  ERROR   Failed to fetch ^STOXX50E, using fallback "Force Fallback for Demo correctness"
+[00:08:22.687] Server  ERROR   Failed to fetch ^IBEX, using fallback "Force Fallback for Demo correctness"
+[00:08:22.688] Server  ERROR   Failed to fetch ^SSMI, using fallback "Force Fallback for Demo correctness"
+[00:08:22.688] Server  ERROR   Failed to fetch ^N225, using fallback "Force Fallback for Demo correctness"
+[00:08:22.688] Server  ERROR   Failed to fetch ^HSI, using fallback "Force Fallback for Demo correctness"
+[00:08:22.688] Server  ERROR   Failed to fetch ^STI, using fallback "Force Fallback for Demo correctness"
+[00:08:22.689] Server  ERROR   Failed to fetch ^BSESN, using fallback "Force Fallback for Demo correctness"
+[00:08:22.689] Server  ERROR   Failed to fetch ^KS11, using fallback "Force Fallback for Demo correctness"
+[00:08:22.689] Server  ERROR   Failed to fetch 000001.SS, using fallback "Force Fallback for Demo correctness"
+[00:08:22.690] Server  ERROR   Failed to fetch ^AXJO, using fallback "Force Fallback for Demo correctness"
+[00:08:22.690] Server  ERROR   Failed to fetch ^NZ50, using fallback "Force Fallback for Demo correctness"
+[00:08:22.690] Server  ERROR   Failed to fetch ^TA125.TA, using fallback "Force Fallback for Demo correctness"
+[00:08:22.812] Browser WARN    [react-tooltip] Do not set `style.border`. Use `border` prop instead.
+[00:08:22.812] Browser WARN    [react-tooltip] Do not set `style.border`. Use `border` prop instead.
+[00:09:01.884] Server  ERROR   Failed to fetch ^GSPC, using fallback "Force Fallback for Demo correctness"
+[00:09:01.884] Server  ERROR   Failed to fetch ^DJI, using fallback "Force Fallback for Demo correctness"
+[00:09:01.885] Server  ERROR   Failed to fetch ^IXIC, using fallback "Force Fallback for Demo correctness"
+[00:09:01.885] Server  ERROR   Failed to fetch ^GSPTSE, using fallback "Force Fallback for Demo correctness"
+[00:09:01.885] Server  ERROR   Failed to fetch ^MXX, using fallback "Force Fallback for Demo correctness"
+[00:09:01.886] Server  ERROR   Failed to fetch ^BVSP, using fallback "Force Fallback for Demo correctness"
+[00:09:01.887] Server  ERROR   Failed to fetch ^MERV, using fallback "Force Fallback for Demo correctness"
+[00:09:01.887] Server  ERROR   Failed to fetch ^IPSA, using fallback "Force Fallback for Demo correctness"
+[00:09:01.888] Server  ERROR   Failed to fetch ^FTSE, using fallback "Force Fallback for Demo correctness"
+[00:09:01.888] Server  ERROR   Failed to fetch ^GDAXI, using fallback "Force Fallback for Demo correctness"
+[00:09:01.888] Server  ERROR   Failed to fetch ^FCHI, using fallback "Force Fallback for Demo correctness"
+[00:09:01.888] Server  ERROR   Failed to fetch ^STOXX50E, using fallback "Force Fallback for Demo correctness"
+[00:09:01.889] Server  ERROR   Failed to fetch ^IBEX, using fallback "Force Fallback for Demo correctness"
+[00:09:01.889] Server  ERROR   Failed to fetch ^SSMI, using fallback "Force Fallback for Demo correctness"
+[00:09:01.889] Server  ERROR   Failed to fetch ^N225, using fallback "Force Fallback for Demo correctness"
+[00:09:01.889] Server  ERROR   Failed to fetch ^HSI, using fallback "Force Fallback for Demo correctness"
+[00:09:01.890] Server  ERROR   Failed to fetch ^STI, using fallback "Force Fallback for Demo correctness"
+[00:09:01.890] Server  ERROR   Failed to fetch ^BSESN, using fallback "Force Fallback for Demo correctness"
+[00:09:01.890] Server  ERROR   Failed to fetch ^KS11, using fallback "Force Fallback for Demo correctness"
+[00:09:01.890] Server  ERROR   Failed to fetch 000001.SS, using fallback "Force Fallback for Demo correctness"
+[00:09:01.891] Server  ERROR   Failed to fetch ^AXJO, using fallback "Force Fallback for Demo correctness"
+[00:09:01.891] Server  ERROR   Failed to fetch ^NZ50, using fallback "Force Fallback for Demo correctness"
+[00:09:01.891] Server  ERROR   Failed to fetch ^TA125.TA, using fallback "Force Fallback for Demo correctness"
+[00:09:02.017] Browser WARN    [react-tooltip] Do not set `style.border`. Use `border` prop instead.
+[00:09:02.017] Browser WARN    [react-tooltip] Do not set `style.border`. Use `border` prop instead.
+[00:09:39.017] Server  ERROR   Failed to fetch ^GSPC, using fallback "Force Fallback for Demo correctness"
+[00:09:39.017] Server  ERROR   Failed to fetch ^DJI, using fallback "Force Fallback for Demo correctness"
+[00:09:39.017] Server  ERROR   Failed to fetch ^IXIC, using fallback "Force Fallback for Demo correctness"
+[00:09:39.017] Server  ERROR   Failed to fetch ^GSPTSE, using fallback "Force Fallback for Demo correctness"
+[00:09:39.018] Server  ERROR   Failed to fetch ^MXX, using fallback "Force Fallback for Demo correctness"
+[00:09:39.018] Server  ERROR   Failed to fetch ^BVSP, using fallback "Force Fallback for Demo correctness"
+[00:09:39.018] Server  ERROR   Failed to fetch ^MERV, using fallback "Force Fallback for Demo correctness"
+[00:09:39.019] Server  ERROR   Failed to fetch ^IPSA, using fallback "Force Fallback for Demo correctness"
+[00:09:39.019] Server  ERROR   Failed to fetch ^FTSE, using fallback "Force Fallback for Demo correctness"
+[00:09:39.019] Server  ERROR   Failed to fetch ^GDAXI, using fallback "Force Fallback for Demo correctness"
+[00:09:39.019] Server  ERROR   Failed to fetch ^FCHI, using fallback "Force Fallback for Demo correctness"
+[00:09:39.020] Server  ERROR   Failed to fetch ^STOXX50E, using fallback "Force Fallback for Demo correctness"
+[00:09:39.020] Server  ERROR   Failed to fetch ^IBEX, using fallback "Force Fallback for Demo correctness"
+[00:09:39.020] Server  ERROR   Failed to fetch ^SSMI, using fallback "Force Fallback for Demo correctness"
+[00:09:39.020] Server  ERROR   Failed to fetch ^N225, using fallback "Force Fallback for Demo correctness"
+[00:09:39.021] Server  ERROR   Failed to fetch ^HSI, using fallback "Force Fallback for Demo correctness"
+[00:09:39.021] Server  ERROR   Failed to fetch ^STI, using fallback "Force Fallback for Demo correctness"
+[00:09:39.021] Server  ERROR   Failed to fetch ^BSESN, using fallback "Force Fallback for Demo correctness"
+[00:09:39.022] Server  ERROR   Failed to fetch ^KS11, using fallback "Force Fallback for Demo correctness"
+[00:09:39.022] Server  ERROR   Failed to fetch 000001.SS, using fallback "Force Fallback for Demo correctness"
+[00:09:39.022] Server  ERROR   Failed to fetch ^AXJO, using fallback "Force Fallback for Demo correctness"
+[00:09:39.022] Server  ERROR   Failed to fetch ^NZ50, using fallback "Force Fallback for Demo correctness"
+[00:09:39.023] Server  ERROR   Failed to fetch ^TA125.TA, using fallback "Force Fallback for Demo correctness"
+[00:09:39.159] Browser WARN    [react-tooltip] Do not set `style.border`. Use `border` prop instead.
+[00:09:39.159] Browser WARN    [react-tooltip] Do not set `style.border`. Use `border` prop instead.
+[00:09:48.982] Server  LOG     ✓ Compiled in 38ms
+[00:09:49.234] Server  ERROR   Failed to fetch ^GSPC, using fallback "Force Fallback for Demo correctness"
+[00:09:49.234] Server  ERROR   Failed to fetch ^DJI, using fallback "Force Fallback for Demo correctness"
+[00:09:49.234] Server  ERROR   Failed to fetch ^IXIC, using fallback "Force Fallback for Demo correctness"
+[00:09:49.235] Server  ERROR   Failed to fetch ^GSPTSE, using fallback "Force Fallback for Demo correctness"
+[00:09:49.235] Server  ERROR   Failed to fetch ^MXX, using fallback "Force Fallback for Demo correctness"
+[00:09:49.235] Server  ERROR   Failed to fetch ^BVSP, using fallback "Force Fallback for Demo correctness"
+[00:09:49.235] Server  ERROR   Failed to fetch ^MERV, using fallback "Force Fallback for Demo correctness"
+[00:09:49.236] Server  ERROR   Failed to fetch ^IPSA, using fallback "Force Fallback for Demo correctness"
+[00:09:49.236] Server  ERROR   Failed to fetch ^FTSE, using fallback "Force Fallback for Demo correctness"
+[00:09:49.236] Server  ERROR   Failed to fetch ^GDAXI, using fallback "Force Fallback for Demo correctness"
+[00:09:49.236] Server  ERROR   Failed to fetch ^FCHI, using fallback "Force Fallback for Demo correctness"
+[00:09:49.237] Server  ERROR   Failed to fetch ^STOXX50E, using fallback "Force Fallback for Demo correctness"
+[00:09:49.237] Server  ERROR   Failed to fetch ^IBEX, using fallback "Force Fallback for Demo correctness"
+[00:09:49.237] Server  ERROR   Failed to fetch ^SSMI, using fallback "Force Fallback for Demo correctness"
+[00:09:49.237] Server  ERROR   Failed to fetch ^N225, using fallback "Force Fallback for Demo correctness"
+[00:09:49.238] Server  ERROR   Failed to fetch ^HSI, using fallback "Force Fallback for Demo correctness"
+[00:09:49.238] Server  ERROR   Failed to fetch ^STI, using fallback "Force Fallback for Demo correctness"
+[00:09:49.238] Server  ERROR   Failed to fetch ^BSESN, using fallback "Force Fallback for Demo correctness"
+[00:09:49.238] Server  ERROR   Failed to fetch ^KS11, using fallback "Force Fallback for Demo correctness"
+[00:09:49.239] Server  ERROR   Failed to fetch 000001.SS, using fallback "Force Fallback for Demo correctness"
+[00:09:49.239] Server  ERROR   Failed to fetch ^AXJO, using fallback "Force Fallback for Demo correctness"
+[00:09:49.239] Server  ERROR   Failed to fetch ^NZ50, using fallback "Force Fallback for Demo correctness"
+[00:09:49.240] Server  ERROR   Failed to fetch ^TA125.TA, using fallback "Force Fallback for Demo correctness"
+[00:09:49.378] Browser WARN    [react-tooltip] Do not set `style.border`. Use `border` prop instead.
+[00:09:49.378] Browser WARN    [react-tooltip] Do not set `style.border`. Use `border` prop instead.
+[00:11:06.979] Server  LOG     ✓ Compiled in 7ms
+[00:11:07.086] Browser ERROR   ./components/SimpleChart.js:15:20
+Parsing ecmascript source code failed
+  13 |             x: i,
+  14 |             y: 100 + Math.random() * 20 - 10 + (isPositive ? i * 0.5 : -i * 0.5),
+> 15 |             time: `${ 9 + Math.floor(i / 6) }:${ (i % 6) * 10 || '00' } `
+     |                    ^
+  16 |         }));
+  17 |     }
+  18 |     return data; // Assuming data has {x, y, time}
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./components/SimpleChart.js [Client Component Browser]
+    ./components/IndicesTable.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/SimpleChart.js [Client Component SSR]
+    ./components/IndicesTable.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:11:18.102] Server  LOG     ✓ Compiled in 9ms
+[00:11:18.210] Browser ERROR   ./components/SimpleChart.js:15:20
+Parsing ecmascript source code failed
+  13 |             x: i,
+  14 |             y: 100 + Math.random() * 20 - 10 + (isPositive ? i * 0.5 : -i * 0.5),
+> 15 |             time: `${ 9 + Math.floor(i / 6) }:${ (i % 6) * 10 || '00' } `
+     |                    ^
+  16 |         }));
+  17 |     }
+  18 |     return data; // Assuming data has {x, y, time}
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./components/SimpleChart.js [Client Component Browser]
+    ./components/IndicesTable.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/SimpleChart.js [Client Component SSR]
+    ./components/IndicesTable.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:11:30.636] Server  LOG     ✓ Compiled in 3ms
+[00:11:30.744] Browser ERROR   ./components/SimpleChart.js:15:20
+Parsing ecmascript source code failed
+  13 |             x: i,
+  14 |             y: 100 + Math.random() * 20 - 10 + (isPositive ? i * 0.5 : -i * 0.5),
+> 15 |             time: `${ 9 + Math.floor(i / 6) }:${ (i % 6) * 10 || '00' } `
+     |                    ^
+  16 |         }));
+  17 |     }
+  18 |     return data; // Assuming data has {x, y, time}
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./components/SimpleChart.js [Client Component Browser]
+    ./components/IndicesTable.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/SimpleChart.js [Client Component SSR]
+    ./components/IndicesTable.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:11:35.101] Browser ERROR   ./components/SimpleChart.js:15:20
+Parsing ecmascript source code failed
+  13 |             x: i,
+  14 |             y: 100 + Math.random() * 20 - 10 + (isPositive ? i * 0.5 : -i * 0.5),
+> 15 |             time: `${ 9 + Math.floor(i / 6) }:${ (i % 6) * 10 || '00' } `
+     |                    ^
+  16 |         }));
+  17 |     }
+  18 |     return data; // Assuming data has {x, y, time}
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./components/SimpleChart.js [Client Component Browser]
+    ./components/IndicesTable.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/SimpleChart.js [Client Component SSR]
+    ./components/IndicesTable.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:11:35.101] Browser ERROR   ./components/SimpleChart.js:15:20
+Parsing ecmascript source code failed
+  13 |             x: i,
+  14 |             y: 100 + Math.random() * 20 - 10 + (isPositive ? i * 0.5 : -i * 0.5),
+> 15 |             time: `${ 9 + Math.floor(i / 6) }:${ (i % 6) * 10 || '00' } `
+     |                    ^
+  16 |         }));
+  17 |     }
+  18 |     return data; // Assuming data has {x, y, time}
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./components/SimpleChart.js [Client Component Browser]
+    ./components/IndicesTable.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/SimpleChart.js [Client Component SSR]
+    ./components/IndicesTable.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:11:35.638] Browser ERROR   ./components/SimpleChart.js:15:20
+Parsing ecmascript source code failed
+  13 |             x: i,
+  14 |             y: 100 + Math.random() * 20 - 10 + (isPositive ? i * 0.5 : -i * 0.5),
+> 15 |             time: `${ 9 + Math.floor(i / 6) }:${ (i % 6) * 10 || '00' } `
+     |                    ^
+  16 |         }));
+  17 |     }
+  18 |     return data; // Assuming data has {x, y, time}
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./components/SimpleChart.js [Client Component Browser]
+    ./components/IndicesTable.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/SimpleChart.js [Client Component SSR]
+    ./components/IndicesTable.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:11:37.030] Browser ERROR   ./components/SimpleChart.js:15:20
+Parsing ecmascript source code failed
+  13 |             x: i,
+  14 |             y: 100 + Math.random() * 20 - 10 + (isPositive ? i * 0.5 : -i * 0.5),
+> 15 |             time: `${ 9 + Math.floor(i / 6) }:${ (i % 6) * 10 || '00' } `
+     |                    ^
+  16 |         }));
+  17 |     }
+  18 |     return data; // Assuming data has {x, y, time}
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./components/SimpleChart.js [Client Component Browser]
+    ./components/IndicesTable.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/SimpleChart.js [Client Component SSR]
+    ./components/IndicesTable.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:11:37.305] Browser ERROR   ./components/SimpleChart.js:15:20
+Parsing ecmascript source code failed
+  13 |             x: i,
+  14 |             y: 100 + Math.random() * 20 - 10 + (isPositive ? i * 0.5 : -i * 0.5),
+> 15 |             time: `${ 9 + Math.floor(i / 6) }:${ (i % 6) * 10 || '00' } `
+     |                    ^
+  16 |         }));
+  17 |     }
+  18 |     return data; // Assuming data has {x, y, time}
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./components/SimpleChart.js [Client Component Browser]
+    ./components/IndicesTable.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/SimpleChart.js [Client Component SSR]
+    ./components/IndicesTable.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:11:37.873] Browser ERROR   ./components/SimpleChart.js:15:20
+Parsing ecmascript source code failed
+  13 |             x: i,
+  14 |             y: 100 + Math.random() * 20 - 10 + (isPositive ? i * 0.5 : -i * 0.5),
+> 15 |             time: `${ 9 + Math.floor(i / 6) }:${ (i % 6) * 10 || '00' } `
+     |                    ^
+  16 |         }));
+  17 |     }
+  18 |     return data; // Assuming data has {x, y, time}
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./components/SimpleChart.js [Client Component Browser]
+    ./components/IndicesTable.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/SimpleChart.js [Client Component SSR]
+    ./components/IndicesTable.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:14:12.245] Server  LOG     ✓ Compiled in 9ms
+[00:14:59.983] Server  LOG     ✓ Compiled in 12ms
+[00:15:00.781] Browser ERROR   uncaughtError: ReferenceError: isMounted is not defined
+[00:15:08.561] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:15:08.643] Server  LOG     ✓ Compiled in 5ms
+[00:15:08.736] Server  WARN    [yahoo-finance2] v2 is no longer maintained nor supported.  Please migrate to v3. See https://github.com/gadicc/yahoo-finance2/blob/dev/docs/UPGRADING.md for details.
+[00:15:08.741] Server  LOG     Please consider completing the survey at https://bit.ly/yahoo-finance-api-feedback if you haven't already; for more info see https://github.com/gadicc/node-yahoo-finance2/issues/764#issuecomment-2056623851.  This will only be shown once, but you can suppress this message in future with `yahooFinance.suppressNotices(['yahooSurvey'])`.
+[00:15:08.744] Server  LOG     Fetching crumb and cookies from https://finance.yahoo.com/quote/AAPL...
+[00:15:08.820] Server  ERROR   We expected a redirect to guce.yahoo.com, but got https://finance.yahoo.com/quote/AAPL/
+[00:15:08.820] Server  ERROR   We'll try to continue anyway - you can safely ignore this if the request succeeds
+[00:15:08.820] Server  LOG     Success. Cookie expires on Tue Jan 05 2027 06:35:08 GMT-0500 (Eastern Standard Time)
+[00:15:08.820] Server  LOG     fetch "https://query1.finance.yahoo.com/v1/test/getcrumb"
+[00:15:08.899] Server  LOG     New crumb: qoCjJEtS5yv
+[00:15:10.787] Browser ERROR   uncaughtError: ReferenceError: isMounted is not defined
+[00:17:00.538] Browser ERROR   uncaughtError: ReferenceError: isMounted is not defined
+[00:17:37.126] Server  LOG     ✓ Compiled in 9ms
+[00:17:37.230] Browser ERROR   ./components/IndicesTable.js:69:29
+Parsing ecmascript source code failed
+  67 |     return (
+  68 |                         <th onClick={() => requestSort('price')}>Price {getSortIndicator('price')}</th>
+> 69 |                         <th onClick={() => requestSort('changePercent')}>% Return {getSortIndicator('changePercent')}</th>
+     |                             ^^^^^^^
+  70 |                         <th onClick={() => requestSort('changeAmount')}>$ Gain {getSortIndicator('changeAmount')}</th>
+  71 |                         <th onClick={() => requestSort('marketState')}>Status {getSortIndicator('marketState')}</th>
+  72 |                     </tr >
+
+Expected ',', got 'onClick'
+
+Import traces:
+  Client Component Browser:
+    ./components/IndicesTable.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/IndicesTable.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:17:45.113] Browser ERROR   ./components/IndicesTable.js:69:29
+Parsing ecmascript source code failed
+  67 |     return (
+  68 |                         <th onClick={() => requestSort('price')}>Price {getSortIndicator('price')}</th>
+> 69 |                         <th onClick={() => requestSort('changePercent')}>% Return {getSortIndicator('changePercent')}</th>
+     |                             ^^^^^^^
+  70 |                         <th onClick={() => requestSort('changeAmount')}>$ Gain {getSortIndicator('changeAmount')}</th>
+  71 |                         <th onClick={() => requestSort('marketState')}>Status {getSortIndicator('marketState')}</th>
+  72 |                     </tr >
+
+Expected ',', got 'onClick'
+
+Import traces:
+  Client Component Browser:
+    ./components/IndicesTable.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/IndicesTable.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:17:49.405] Server  LOG     ✓ Compiled in 32ms
+[00:17:49.788] Browser ERROR   ./components/IndicesTable.js:69:29
+Parsing ecmascript source code failed
+  67 |     return (
+  68 |                         <th onClick={() => requestSort('price')}>Price {getSortIndicator('price')}</th>
+> 69 |                         <th onClick={() => requestSort('changePercent')}>% Return {getSortIndicator('changePercent')}</th>
+     |                             ^^^^^^^
+  70 |                         <th onClick={() => requestSort('changeAmount')}>$ Gain {getSortIndicator('changeAmount')}</th>
+  71 |                         <th onClick={() => requestSort('marketState')}>Status {getSortIndicator('marketState')}</th>
+  72 |                     </tr >
+
+Expected ',', got 'onClick'
+
+Import traces:
+  Client Component Browser:
+    ./components/IndicesTable.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/IndicesTable.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:17:54.787] Browser ERROR   ./components/IndicesTable.js:69:29
+Parsing ecmascript source code failed
+  67 |     return (
+  68 |                         <th onClick={() => requestSort('price')}>Price {getSortIndicator('price')}</th>
+> 69 |                         <th onClick={() => requestSort('changePercent')}>% Return {getSortIndicator('changePercent')}</th>
+     |                             ^^^^^^^
+  70 |                         <th onClick={() => requestSort('changeAmount')}>$ Gain {getSortIndicator('changeAmount')}</th>
+  71 |                         <th onClick={() => requestSort('marketState')}>Status {getSortIndicator('marketState')}</th>
+  72 |                     </tr >
+
+Expected ',', got 'onClick'
+
+Import traces:
+  Client Component Browser:
+    ./components/IndicesTable.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/IndicesTable.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:17:54.787] Browser ERROR   ./components/IndicesTable.js:69:29
+Parsing ecmascript source code failed
+  67 |     return (
+  68 |                         <th onClick={() => requestSort('price')}>Price {getSortIndicator('price')}</th>
+> 69 |                         <th onClick={() => requestSort('changePercent')}>% Return {getSortIndicator('changePercent')}</th>
+     |                             ^^^^^^^
+  70 |                         <th onClick={() => requestSort('changeAmount')}>$ Gain {getSortIndicator('changeAmount')}</th>
+  71 |                         <th onClick={() => requestSort('marketState')}>Status {getSortIndicator('marketState')}</th>
+  72 |                     </tr >
+
+Expected ',', got 'onClick'
+
+Import traces:
+  Client Component Browser:
+    ./components/IndicesTable.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/IndicesTable.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:17:54.787] Browser ERROR   ./components/IndicesTable.js:69:29
+Parsing ecmascript source code failed
+  67 |     return (
+  68 |                         <th onClick={() => requestSort('price')}>Price {getSortIndicator('price')}</th>
+> 69 |                         <th onClick={() => requestSort('changePercent')}>% Return {getSortIndicator('changePercent')}</th>
+     |                             ^^^^^^^
+  70 |                         <th onClick={() => requestSort('changeAmount')}>$ Gain {getSortIndicator('changeAmount')}</th>
+  71 |                         <th onClick={() => requestSort('marketState')}>Status {getSortIndicator('marketState')}</th>
+  72 |                     </tr >
+
+Expected ',', got 'onClick'
+
+Import traces:
+  Client Component Browser:
+    ./components/IndicesTable.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/IndicesTable.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:17:57.784] Browser ERROR   ./components/IndicesTable.js:69:29
+Parsing ecmascript source code failed
+  67 |     return (
+  68 |                         <th onClick={() => requestSort('price')}>Price {getSortIndicator('price')}</th>
+> 69 |                         <th onClick={() => requestSort('changePercent')}>% Return {getSortIndicator('changePercent')}</th>
+     |                             ^^^^^^^
+  70 |                         <th onClick={() => requestSort('changeAmount')}>$ Gain {getSortIndicator('changeAmount')}</th>
+  71 |                         <th onClick={() => requestSort('marketState')}>Status {getSortIndicator('marketState')}</th>
+  72 |                     </tr >
+
+Expected ',', got 'onClick'
+
+Import traces:
+  Client Component Browser:
+    ./components/IndicesTable.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/IndicesTable.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:17:57.784] Browser ERROR   ./components/IndicesTable.js:69:29
+Parsing ecmascript source code failed
+  67 |     return (
+  68 |                         <th onClick={() => requestSort('price')}>Price {getSortIndicator('price')}</th>
+> 69 |                         <th onClick={() => requestSort('changePercent')}>% Return {getSortIndicator('changePercent')}</th>
+     |                             ^^^^^^^
+  70 |                         <th onClick={() => requestSort('changeAmount')}>$ Gain {getSortIndicator('changeAmount')}</th>
+  71 |                         <th onClick={() => requestSort('marketState')}>Status {getSortIndicator('marketState')}</th>
+  72 |                     </tr >
+
+Expected ',', got 'onClick'
+
+Import traces:
+  Client Component Browser:
+    ./components/IndicesTable.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/IndicesTable.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:17:57.784] Browser ERROR   ./components/IndicesTable.js:69:29
+Parsing ecmascript source code failed
+  67 |     return (
+  68 |                         <th onClick={() => requestSort('price')}>Price {getSortIndicator('price')}</th>
+> 69 |                         <th onClick={() => requestSort('changePercent')}>% Return {getSortIndicator('changePercent')}</th>
+     |                             ^^^^^^^
+  70 |                         <th onClick={() => requestSort('changeAmount')}>$ Gain {getSortIndicator('changeAmount')}</th>
+  71 |                         <th onClick={() => requestSort('marketState')}>Status {getSortIndicator('marketState')}</th>
+  72 |                     </tr >
+
+Expected ',', got 'onClick'
+
+Import traces:
+  Client Component Browser:
+    ./components/IndicesTable.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/IndicesTable.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:18:21.311] Server  LOG     ✓ Compiled in 4ms
+[00:18:21.785] Browser ERROR   ./components/IndicesTable.js:158:34
+Parsing ecmascript source code failed
+  156 |                                 })}
+  157 |                             </tbody>
+> 158 |                         </table >
+      |                                  ^
+> 159 |                     </div >
+      | ^^^^^^^^^^^^^^^^^^^^^
+  160 |             </div >
+  161 |             );
+  162 | };
+
+Expected '</', got 'jsx text (
+                    )'
+
+Import traces:
+  Client Component Browser:
+    ./components/IndicesTable.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/IndicesTable.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:18:22.474] Server  LOG     ✓ Compiled in 2ms
+[00:18:22.780] Browser ERROR   ./components/IndicesTable.js:158:34
+Parsing ecmascript source code failed
+  156 |                                 })}
+  157 |                             </tbody>
+> 158 |                         </table >
+      |                                  ^
+> 159 |                     </div >
+      | ^^^^^^^^^^^^^^^^^^^^^
+  160 |             </div >
+  161 |             );
+  162 | };
+
+Expected '</', got 'jsx text (
+                    )'
+
+Import traces:
+  Client Component Browser:
+    ./components/IndicesTable.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/IndicesTable.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:18:26.778] Browser ERROR   ./components/IndicesTable.js:158:34
+Parsing ecmascript source code failed
+  156 |                                 })}
+  157 |                             </tbody>
+> 158 |                         </table >
+      |                                  ^
+> 159 |                     </div >
+      | ^^^^^^^^^^^^^^^^^^^^^
+  160 |             </div >
+  161 |             );
+  162 | };
+
+Expected '</', got 'jsx text (
+                    )'
+
+Import traces:
+  Client Component Browser:
+    ./components/IndicesTable.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/IndicesTable.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:18:26.778] Browser ERROR   ./components/IndicesTable.js:158:34
+Parsing ecmascript source code failed
+  156 |                                 })}
+  157 |                             </tbody>
+> 158 |                         </table >
+      |                                  ^
+> 159 |                     </div >
+      | ^^^^^^^^^^^^^^^^^^^^^
+  160 |             </div >
+  161 |             );
+  162 | };
+
+Expected '</', got 'jsx text (
+                    )'
+
+Import traces:
+  Client Component Browser:
+    ./components/IndicesTable.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/IndicesTable.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:18:27.784] Browser ERROR   ./components/IndicesTable.js:158:34
+Parsing ecmascript source code failed
+  156 |                                 })}
+  157 |                             </tbody>
+> 158 |                         </table >
+      |                                  ^
+> 159 |                     </div >
+      | ^^^^^^^^^^^^^^^^^^^^^
+  160 |             </div >
+  161 |             );
+  162 | };
+
+Expected '</', got 'jsx text (
+                    )'
+
+Import traces:
+  Client Component Browser:
+    ./components/IndicesTable.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/IndicesTable.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:18:27.784] Browser ERROR   ./components/IndicesTable.js:158:34
+Parsing ecmascript source code failed
+  156 |                                 })}
+  157 |                             </tbody>
+> 158 |                         </table >
+      |                                  ^
+> 159 |                     </div >
+      | ^^^^^^^^^^^^^^^^^^^^^
+  160 |             </div >
+  161 |             );
+  162 | };
+
+Expected '</', got 'jsx text (
+                    )'
+
+Import traces:
+  Client Component Browser:
+    ./components/IndicesTable.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/IndicesTable.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:18:43.971] Server  LOG     ✓ Compiled in 7ms
+[00:18:44.778] Browser ERROR   ./components/IndicesTable.js:118:70
+Parsing ecmascript source code failed
+  116 |                                                                     <th onClick={() => requestSort('changeAmount')}>$ Gain {getSortIndicator('changeAmount')}</th>
+  117 |                                                                     <th onClick={() => requestSort('marketState')}>Status {getSortIndicator('marketState')}</th>
+> 118 |                                                                 </tr>
+      |                                                                      ^
+> 119 |                                                             </thead>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  120 |                                                             <tbody>
+  121 |                                                                 <h5>Market Statistics</h5>
+  122 |                                                                 <div className="stats-grid">
+
+Expected '</', got 'jsx text (
+                                                            )'
+
+Import traces:
+  Client Component Browser:
+    ./components/IndicesTable.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/IndicesTable.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:18:45.160] Server  LOG     ✓ Compiled in 4ms
+[00:18:45.775] Browser ERROR   ./components/IndicesTable.js:124:62
+Parsing ecmascript source code failed
+  122 |                                                             <th onClick={() => requestSort('changeAmount')}>$ Gain {getSortIndicator('changeAmount')}</th>
+  123 |                                                             <th onClick={() => requestSort('marketState')}>Status {getSortIndicator('marketState')}</th>
+> 124 |                                                         </tr>
+      |                                                              ^
+> 125 |                                                     </thead>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  126 |                                                     <tbody>
+  127 |                                                         <h5>Market Statistics</h5>
+  128 |                                                         <div className="stats-grid">
+
+Expected '</', got 'jsx text (
+                                                    )'
+
+Import traces:
+  Client Component Browser:
+    ./components/IndicesTable.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/IndicesTable.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:18:48.778] Browser ERROR   ./components/IndicesTable.js:124:62
+Parsing ecmascript source code failed
+  122 |                                                             <th onClick={() => requestSort('changeAmount')}>$ Gain {getSortIndicator('changeAmount')}</th>
+  123 |                                                             <th onClick={() => requestSort('marketState')}>Status {getSortIndicator('marketState')}</th>
+> 124 |                                                         </tr>
+      |                                                              ^
+> 125 |                                                     </thead>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  126 |                                                     <tbody>
+  127 |                                                         <h5>Market Statistics</h5>
+  128 |                                                         <div className="stats-grid">
+
+Expected '</', got 'jsx text (
+                                                    )'
+
+Import traces:
+  Client Component Browser:
+    ./components/IndicesTable.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/IndicesTable.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:18:48.778] Browser ERROR   ./components/IndicesTable.js:124:62
+Parsing ecmascript source code failed
+  122 |                                                             <th onClick={() => requestSort('changeAmount')}>$ Gain {getSortIndicator('changeAmount')}</th>
+  123 |                                                             <th onClick={() => requestSort('marketState')}>Status {getSortIndicator('marketState')}</th>
+> 124 |                                                         </tr>
+      |                                                              ^
+> 125 |                                                     </thead>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  126 |                                                     <tbody>
+  127 |                                                         <h5>Market Statistics</h5>
+  128 |                                                         <div className="stats-grid">
+
+Expected '</', got 'jsx text (
+                                                    )'
+
+Import traces:
+  Client Component Browser:
+    ./components/IndicesTable.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/IndicesTable.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:18:49.775] Browser ERROR   ./components/IndicesTable.js:124:62
+Parsing ecmascript source code failed
+  122 |                                                             <th onClick={() => requestSort('changeAmount')}>$ Gain {getSortIndicator('changeAmount')}</th>
+  123 |                                                             <th onClick={() => requestSort('marketState')}>Status {getSortIndicator('marketState')}</th>
+> 124 |                                                         </tr>
+      |                                                              ^
+> 125 |                                                     </thead>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  126 |                                                     <tbody>
+  127 |                                                         <h5>Market Statistics</h5>
+  128 |                                                         <div className="stats-grid">
+
+Expected '</', got 'jsx text (
+                                                    )'
+
+Import traces:
+  Client Component Browser:
+    ./components/IndicesTable.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/IndicesTable.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:18:49.775] Browser ERROR   ./components/IndicesTable.js:124:62
+Parsing ecmascript source code failed
+  122 |                                                             <th onClick={() => requestSort('changeAmount')}>$ Gain {getSortIndicator('changeAmount')}</th>
+  123 |                                                             <th onClick={() => requestSort('marketState')}>Status {getSortIndicator('marketState')}</th>
+> 124 |                                                         </tr>
+      |                                                              ^
+> 125 |                                                     </thead>
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  126 |                                                     <tbody>
+  127 |                                                         <h5>Market Statistics</h5>
+  128 |                                                         <div className="stats-grid">
+
+Expected '</', got 'jsx text (
+                                                    )'
+
+Import traces:
+  Client Component Browser:
+    ./components/IndicesTable.js [Client Component Browser]
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./components/IndicesTable.js [Client Component SSR]
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:19:09.764] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:19:10.783] Browser ERROR   uncaughtError: ReferenceError: isMounted is not defined
+[00:26:20.412] Browser ERROR   uncaughtError: ReferenceError: isMounted is not defined
+[00:26:37.542] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:26:37.618] Server  LOG     ✓ Compiled in 10ms
+[00:28:13.544] Server  LOG     ✓ Compiled in 4ms
+[00:28:35.977] Server  LOG     ✓ Compiled in 4ms
+[00:28:58.025] Server  ERROR   ⨯ ./app/page.js:5:1
+Module not found: Can't resolve '../components/IndicesTable'
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+  4 | import WorldMap from '../components/WorldMap';
+> 5 | import IndicesTable from '../components/IndicesTable';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.026] Server  ERROR   ⨯ ./app/page.js:5:1
+Module not found: Can't resolve '../components/IndicesTable'
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+  4 | import WorldMap from '../components/WorldMap';
+> 5 | import IndicesTable from '../components/IndicesTable';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.027] Server  ERROR   ⨯ ./app/page.js:5:1
+Module not found: Can't resolve '../components/IndicesTable'
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+  4 | import WorldMap from '../components/WorldMap';
+> 5 | import IndicesTable from '../components/IndicesTable';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.028] Server  ERROR   ⨯ ./app/page.js:5:1
+Module not found: Can't resolve '../components/IndicesTable'
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+  4 | import WorldMap from '../components/WorldMap';
+> 5 | import IndicesTable from '../components/IndicesTable';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.029] Server  ERROR   ⨯ ./app/page.js:6:1
+Module not found: Can't resolve '../components/MarketClocks'
+  4 | import WorldMap from '../components/WorldMap';
+  5 | import IndicesTable from '../components/IndicesTable';
+> 6 | import MarketClocks from '../components/MarketClocks';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |     const [marketData, setMarketData] = useState([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.030] Server  ERROR   ⨯ ./app/page.js:6:1
+Module not found: Can't resolve '../components/MarketClocks'
+  4 | import WorldMap from '../components/WorldMap';
+  5 | import IndicesTable from '../components/IndicesTable';
+> 6 | import MarketClocks from '../components/MarketClocks';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |     const [marketData, setMarketData] = useState([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.031] Server  ERROR   ⨯ ./app/page.js:6:1
+Module not found: Can't resolve '../components/MarketClocks'
+  4 | import WorldMap from '../components/WorldMap';
+  5 | import IndicesTable from '../components/IndicesTable';
+> 6 | import MarketClocks from '../components/MarketClocks';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |     const [marketData, setMarketData] = useState([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.033] Server  ERROR   ⨯ ./app/page.js:6:1
+Module not found: Can't resolve '../components/MarketClocks'
+  4 | import WorldMap from '../components/WorldMap';
+  5 | import IndicesTable from '../components/IndicesTable';
+> 6 | import MarketClocks from '../components/MarketClocks';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |     const [marketData, setMarketData] = useState([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.034] Server  ERROR   ⨯ ./app/page.js:4:1
+Module not found: Can't resolve '../components/WorldMap'
+  2 |
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+> 4 | import WorldMap from '../components/WorldMap';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import IndicesTable from '../components/IndicesTable';
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.035] Server  ERROR   ⨯ ./app/page.js:4:1
+Module not found: Can't resolve '../components/WorldMap'
+  2 |
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+> 4 | import WorldMap from '../components/WorldMap';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import IndicesTable from '../components/IndicesTable';
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.036] Server  ERROR   ⨯ ./app/page.js:4:1
+Module not found: Can't resolve '../components/WorldMap'
+  2 |
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+> 4 | import WorldMap from '../components/WorldMap';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import IndicesTable from '../components/IndicesTable';
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.038] Server  ERROR   ⨯ ./app/page.js:4:1
+Module not found: Can't resolve '../components/WorldMap'
+  2 |
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+> 4 | import WorldMap from '../components/WorldMap';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import IndicesTable from '../components/IndicesTable';
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.040] Server  ERROR   ⨯ ./app/page.js:5:1
+Module not found: Can't resolve '../components/IndicesTable'
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+  4 | import WorldMap from '../components/WorldMap';
+> 5 | import IndicesTable from '../components/IndicesTable';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.041] Server  ERROR   ⨯ ./app/page.js:5:1
+Module not found: Can't resolve '../components/IndicesTable'
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+  4 | import WorldMap from '../components/WorldMap';
+> 5 | import IndicesTable from '../components/IndicesTable';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.042] Server  ERROR   ⨯ ./app/page.js:5:1
+Module not found: Can't resolve '../components/IndicesTable'
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+  4 | import WorldMap from '../components/WorldMap';
+> 5 | import IndicesTable from '../components/IndicesTable';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.044] Server  ERROR   ⨯ ./app/page.js:5:1
+Module not found: Can't resolve '../components/IndicesTable'
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+  4 | import WorldMap from '../components/WorldMap';
+> 5 | import IndicesTable from '../components/IndicesTable';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.045] Server  ERROR   ⨯ ./app/page.js:6:1
+Module not found: Can't resolve '../components/MarketClocks'
+  4 | import WorldMap from '../components/WorldMap';
+  5 | import IndicesTable from '../components/IndicesTable';
+> 6 | import MarketClocks from '../components/MarketClocks';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |     const [marketData, setMarketData] = useState([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.046] Server  ERROR   ⨯ ./app/page.js:6:1
+Module not found: Can't resolve '../components/MarketClocks'
+  4 | import WorldMap from '../components/WorldMap';
+  5 | import IndicesTable from '../components/IndicesTable';
+> 6 | import MarketClocks from '../components/MarketClocks';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |     const [marketData, setMarketData] = useState([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.047] Server  ERROR   ⨯ ./app/page.js:6:1
+Module not found: Can't resolve '../components/MarketClocks'
+  4 | import WorldMap from '../components/WorldMap';
+  5 | import IndicesTable from '../components/IndicesTable';
+> 6 | import MarketClocks from '../components/MarketClocks';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |     const [marketData, setMarketData] = useState([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.049] Server  ERROR   ⨯ ./app/page.js:6:1
+Module not found: Can't resolve '../components/MarketClocks'
+  4 | import WorldMap from '../components/WorldMap';
+  5 | import IndicesTable from '../components/IndicesTable';
+> 6 | import MarketClocks from '../components/MarketClocks';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |     const [marketData, setMarketData] = useState([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.050] Server  ERROR   ⨯ ./app/page.js:4:1
+Module not found: Can't resolve '../components/WorldMap'
+  2 |
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+> 4 | import WorldMap from '../components/WorldMap';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import IndicesTable from '../components/IndicesTable';
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.051] Server  ERROR   ⨯ ./app/page.js:4:1
+Module not found: Can't resolve '../components/WorldMap'
+  2 |
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+> 4 | import WorldMap from '../components/WorldMap';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import IndicesTable from '../components/IndicesTable';
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.052] Server  ERROR   ⨯ ./app/page.js:4:1
+Module not found: Can't resolve '../components/WorldMap'
+  2 |
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+> 4 | import WorldMap from '../components/WorldMap';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import IndicesTable from '../components/IndicesTable';
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.053] Server  ERROR   ⨯ ./app/page.js:4:1
+Module not found: Can't resolve '../components/WorldMap'
+  2 |
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+> 4 | import WorldMap from '../components/WorldMap';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import IndicesTable from '../components/IndicesTable';
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.056] Server  ERROR   ⨯ ./app/page.js:5:1
+Module not found: Can't resolve '../components/IndicesTable'
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+  4 | import WorldMap from '../components/WorldMap';
+> 5 | import IndicesTable from '../components/IndicesTable';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.057] Server  ERROR   ⨯ ./app/page.js:5:1
+Module not found: Can't resolve '../components/IndicesTable'
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+  4 | import WorldMap from '../components/WorldMap';
+> 5 | import IndicesTable from '../components/IndicesTable';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.059] Server  ERROR   ⨯ ./app/page.js:5:1
+Module not found: Can't resolve '../components/IndicesTable'
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+  4 | import WorldMap from '../components/WorldMap';
+> 5 | import IndicesTable from '../components/IndicesTable';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.060] Server  ERROR   ⨯ ./app/page.js:5:1
+Module not found: Can't resolve '../components/IndicesTable'
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+  4 | import WorldMap from '../components/WorldMap';
+> 5 | import IndicesTable from '../components/IndicesTable';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.061] Server  ERROR   ⨯ ./app/page.js:6:1
+Module not found: Can't resolve '../components/MarketClocks'
+  4 | import WorldMap from '../components/WorldMap';
+  5 | import IndicesTable from '../components/IndicesTable';
+> 6 | import MarketClocks from '../components/MarketClocks';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |     const [marketData, setMarketData] = useState([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.063] Server  ERROR   ⨯ ./app/page.js:6:1
+Module not found: Can't resolve '../components/MarketClocks'
+  4 | import WorldMap from '../components/WorldMap';
+  5 | import IndicesTable from '../components/IndicesTable';
+> 6 | import MarketClocks from '../components/MarketClocks';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |     const [marketData, setMarketData] = useState([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.064] Server  ERROR   ⨯ ./app/page.js:6:1
+Module not found: Can't resolve '../components/MarketClocks'
+  4 | import WorldMap from '../components/WorldMap';
+  5 | import IndicesTable from '../components/IndicesTable';
+> 6 | import MarketClocks from '../components/MarketClocks';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |     const [marketData, setMarketData] = useState([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.065] Server  ERROR   ⨯ ./app/page.js:6:1
+Module not found: Can't resolve '../components/MarketClocks'
+  4 | import WorldMap from '../components/WorldMap';
+  5 | import IndicesTable from '../components/IndicesTable';
+> 6 | import MarketClocks from '../components/MarketClocks';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |     const [marketData, setMarketData] = useState([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.066] Server  ERROR   ⨯ ./app/page.js:4:1
+Module not found: Can't resolve '../components/WorldMap'
+  2 |
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+> 4 | import WorldMap from '../components/WorldMap';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import IndicesTable from '../components/IndicesTable';
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.067] Server  ERROR   ⨯ ./app/page.js:4:1
+Module not found: Can't resolve '../components/WorldMap'
+  2 |
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+> 4 | import WorldMap from '../components/WorldMap';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import IndicesTable from '../components/IndicesTable';
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.068] Server  ERROR   ⨯ ./app/page.js:4:1
+Module not found: Can't resolve '../components/WorldMap'
+  2 |
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+> 4 | import WorldMap from '../components/WorldMap';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import IndicesTable from '../components/IndicesTable';
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.069] Server  ERROR   ⨯ ./app/page.js:4:1
+Module not found: Can't resolve '../components/WorldMap'
+  2 |
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+> 4 | import WorldMap from '../components/WorldMap';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import IndicesTable from '../components/IndicesTable';
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.071] Server  ERROR   ⨯ ./app/page.js:5:1
+Module not found: Can't resolve '../components/IndicesTable'
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+  4 | import WorldMap from '../components/WorldMap';
+> 5 | import IndicesTable from '../components/IndicesTable';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.072] Server  ERROR   ⨯ ./app/page.js:5:1
+Module not found: Can't resolve '../components/IndicesTable'
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+  4 | import WorldMap from '../components/WorldMap';
+> 5 | import IndicesTable from '../components/IndicesTable';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.073] Server  ERROR   ⨯ ./app/page.js:5:1
+Module not found: Can't resolve '../components/IndicesTable'
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+  4 | import WorldMap from '../components/WorldMap';
+> 5 | import IndicesTable from '../components/IndicesTable';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.074] Server  ERROR   ⨯ ./app/page.js:5:1
+Module not found: Can't resolve '../components/IndicesTable'
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+  4 | import WorldMap from '../components/WorldMap';
+> 5 | import IndicesTable from '../components/IndicesTable';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.076] Server  ERROR   ⨯ ./app/page.js:6:1
+Module not found: Can't resolve '../components/MarketClocks'
+  4 | import WorldMap from '../components/WorldMap';
+  5 | import IndicesTable from '../components/IndicesTable';
+> 6 | import MarketClocks from '../components/MarketClocks';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |     const [marketData, setMarketData] = useState([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.077] Server  ERROR   ⨯ ./app/page.js:6:1
+Module not found: Can't resolve '../components/MarketClocks'
+  4 | import WorldMap from '../components/WorldMap';
+  5 | import IndicesTable from '../components/IndicesTable';
+> 6 | import MarketClocks from '../components/MarketClocks';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |     const [marketData, setMarketData] = useState([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.078] Server  ERROR   ⨯ ./app/page.js:6:1
+Module not found: Can't resolve '../components/MarketClocks'
+  4 | import WorldMap from '../components/WorldMap';
+  5 | import IndicesTable from '../components/IndicesTable';
+> 6 | import MarketClocks from '../components/MarketClocks';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |     const [marketData, setMarketData] = useState([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.080] Server  ERROR   ⨯ ./app/page.js:6:1
+Module not found: Can't resolve '../components/MarketClocks'
+  4 | import WorldMap from '../components/WorldMap';
+  5 | import IndicesTable from '../components/IndicesTable';
+> 6 | import MarketClocks from '../components/MarketClocks';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |     const [marketData, setMarketData] = useState([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.081] Server  ERROR   ⨯ ./app/page.js:4:1
+Module not found: Can't resolve '../components/WorldMap'
+  2 |
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+> 4 | import WorldMap from '../components/WorldMap';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import IndicesTable from '../components/IndicesTable';
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.082] Server  ERROR   ⨯ ./app/page.js:4:1
+Module not found: Can't resolve '../components/WorldMap'
+  2 |
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+> 4 | import WorldMap from '../components/WorldMap';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import IndicesTable from '../components/IndicesTable';
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.083] Server  ERROR   ⨯ ./app/page.js:4:1
+Module not found: Can't resolve '../components/WorldMap'
+  2 |
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+> 4 | import WorldMap from '../components/WorldMap';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import IndicesTable from '../components/IndicesTable';
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.085] Server  ERROR   ⨯ ./app/page.js:4:1
+Module not found: Can't resolve '../components/WorldMap'
+  2 |
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+> 4 | import WorldMap from '../components/WorldMap';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import IndicesTable from '../components/IndicesTable';
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.087] Server  ERROR   ⨯ ./app/page.js:5:1
+Module not found: Can't resolve '../components/IndicesTable'
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+  4 | import WorldMap from '../components/WorldMap';
+> 5 | import IndicesTable from '../components/IndicesTable';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.088] Server  ERROR   ⨯ ./app/page.js:5:1
+Module not found: Can't resolve '../components/IndicesTable'
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+  4 | import WorldMap from '../components/WorldMap';
+> 5 | import IndicesTable from '../components/IndicesTable';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.089] Server  ERROR   ⨯ ./app/page.js:5:1
+Module not found: Can't resolve '../components/IndicesTable'
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+  4 | import WorldMap from '../components/WorldMap';
+> 5 | import IndicesTable from '../components/IndicesTable';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.091] Server  ERROR   ⨯ ./app/page.js:5:1
+Module not found: Can't resolve '../components/IndicesTable'
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+  4 | import WorldMap from '../components/WorldMap';
+> 5 | import IndicesTable from '../components/IndicesTable';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.092] Server  ERROR   ⨯ ./app/page.js:6:1
+Module not found: Can't resolve '../components/MarketClocks'
+  4 | import WorldMap from '../components/WorldMap';
+  5 | import IndicesTable from '../components/IndicesTable';
+> 6 | import MarketClocks from '../components/MarketClocks';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |     const [marketData, setMarketData] = useState([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.093] Server  ERROR   ⨯ ./app/page.js:6:1
+Module not found: Can't resolve '../components/MarketClocks'
+  4 | import WorldMap from '../components/WorldMap';
+  5 | import IndicesTable from '../components/IndicesTable';
+> 6 | import MarketClocks from '../components/MarketClocks';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |     const [marketData, setMarketData] = useState([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.094] Server  ERROR   ⨯ ./app/page.js:6:1
+Module not found: Can't resolve '../components/MarketClocks'
+  4 | import WorldMap from '../components/WorldMap';
+  5 | import IndicesTable from '../components/IndicesTable';
+> 6 | import MarketClocks from '../components/MarketClocks';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |     const [marketData, setMarketData] = useState([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.096] Server  ERROR   ⨯ ./app/page.js:6:1
+Module not found: Can't resolve '../components/MarketClocks'
+  4 | import WorldMap from '../components/WorldMap';
+  5 | import IndicesTable from '../components/IndicesTable';
+> 6 | import MarketClocks from '../components/MarketClocks';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |     const [marketData, setMarketData] = useState([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.097] Server  ERROR   ⨯ ./app/page.js:4:1
+Module not found: Can't resolve '../components/WorldMap'
+  2 |
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+> 4 | import WorldMap from '../components/WorldMap';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import IndicesTable from '../components/IndicesTable';
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.098] Server  ERROR   ⨯ ./app/page.js:4:1
+Module not found: Can't resolve '../components/WorldMap'
+  2 |
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+> 4 | import WorldMap from '../components/WorldMap';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import IndicesTable from '../components/IndicesTable';
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.099] Server  ERROR   ⨯ ./app/page.js:4:1
+Module not found: Can't resolve '../components/WorldMap'
+  2 |
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+> 4 | import WorldMap from '../components/WorldMap';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import IndicesTable from '../components/IndicesTable';
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.100] Server  ERROR   ⨯ ./app/page.js:4:1
+Module not found: Can't resolve '../components/WorldMap'
+  2 |
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+> 4 | import WorldMap from '../components/WorldMap';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import IndicesTable from '../components/IndicesTable';
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.102] Server  ERROR   ⨯ ./app/page.js:5:1
+Module not found: Can't resolve '../components/IndicesTable'
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+  4 | import WorldMap from '../components/WorldMap';
+> 5 | import IndicesTable from '../components/IndicesTable';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.104] Server  ERROR   ⨯ ./app/page.js:5:1
+Module not found: Can't resolve '../components/IndicesTable'
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+  4 | import WorldMap from '../components/WorldMap';
+> 5 | import IndicesTable from '../components/IndicesTable';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.105] Server  ERROR   ⨯ ./app/page.js:5:1
+Module not found: Can't resolve '../components/IndicesTable'
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+  4 | import WorldMap from '../components/WorldMap';
+> 5 | import IndicesTable from '../components/IndicesTable';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.106] Server  ERROR   ⨯ ./app/page.js:5:1
+Module not found: Can't resolve '../components/IndicesTable'
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+  4 | import WorldMap from '../components/WorldMap';
+> 5 | import IndicesTable from '../components/IndicesTable';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.107] Server  ERROR   ⨯ ./app/page.js:6:1
+Module not found: Can't resolve '../components/MarketClocks'
+  4 | import WorldMap from '../components/WorldMap';
+  5 | import IndicesTable from '../components/IndicesTable';
+> 6 | import MarketClocks from '../components/MarketClocks';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |     const [marketData, setMarketData] = useState([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.108] Server  ERROR   ⨯ ./app/page.js:6:1
+Module not found: Can't resolve '../components/MarketClocks'
+  4 | import WorldMap from '../components/WorldMap';
+  5 | import IndicesTable from '../components/IndicesTable';
+> 6 | import MarketClocks from '../components/MarketClocks';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |     const [marketData, setMarketData] = useState([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.109] Server  ERROR   ⨯ ./app/page.js:6:1
+Module not found: Can't resolve '../components/MarketClocks'
+  4 | import WorldMap from '../components/WorldMap';
+  5 | import IndicesTable from '../components/IndicesTable';
+> 6 | import MarketClocks from '../components/MarketClocks';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |     const [marketData, setMarketData] = useState([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.110] Server  ERROR   ⨯ ./app/page.js:6:1
+Module not found: Can't resolve '../components/MarketClocks'
+  4 | import WorldMap from '../components/WorldMap';
+  5 | import IndicesTable from '../components/IndicesTable';
+> 6 | import MarketClocks from '../components/MarketClocks';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |     const [marketData, setMarketData] = useState([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.111] Server  ERROR   ⨯ ./app/page.js:4:1
+Module not found: Can't resolve '../components/WorldMap'
+  2 |
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+> 4 | import WorldMap from '../components/WorldMap';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import IndicesTable from '../components/IndicesTable';
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.112] Server  ERROR   ⨯ ./app/page.js:4:1
+Module not found: Can't resolve '../components/WorldMap'
+  2 |
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+> 4 | import WorldMap from '../components/WorldMap';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import IndicesTable from '../components/IndicesTable';
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.113] Server  ERROR   ⨯ ./app/page.js:4:1
+Module not found: Can't resolve '../components/WorldMap'
+  2 |
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+> 4 | import WorldMap from '../components/WorldMap';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import IndicesTable from '../components/IndicesTable';
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.114] Server  ERROR   ⨯ ./app/page.js:4:1
+Module not found: Can't resolve '../components/WorldMap'
+  2 |
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+> 4 | import WorldMap from '../components/WorldMap';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import IndicesTable from '../components/IndicesTable';
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.118] Server  ERROR   ⨯ ./app/page.js:5:1
+Module not found: Can't resolve '../components/IndicesTable'
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+  4 | import WorldMap from '../components/WorldMap';
+> 5 | import IndicesTable from '../components/IndicesTable';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.122] Server  ERROR   ⨯ ./app/page.js:5:1
+Module not found: Can't resolve '../components/IndicesTable'
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+  4 | import WorldMap from '../components/WorldMap';
+> 5 | import IndicesTable from '../components/IndicesTable';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.126] Server  ERROR   ⨯ ./app/page.js:5:1
+Module not found: Can't resolve '../components/IndicesTable'
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+  4 | import WorldMap from '../components/WorldMap';
+> 5 | import IndicesTable from '../components/IndicesTable';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.130] Server  ERROR   ⨯ ./app/page.js:5:1
+Module not found: Can't resolve '../components/IndicesTable'
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+  4 | import WorldMap from '../components/WorldMap';
+> 5 | import IndicesTable from '../components/IndicesTable';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+  8 | export default function Home() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.134] Server  ERROR   ⨯ ./app/page.js:6:1
+Module not found: Can't resolve '../components/MarketClocks'
+  4 | import WorldMap from '../components/WorldMap';
+  5 | import IndicesTable from '../components/IndicesTable';
+> 6 | import MarketClocks from '../components/MarketClocks';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |     const [marketData, setMarketData] = useState([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.136] Server  ERROR   ⨯ ./app/page.js:6:1
+Module not found: Can't resolve '../components/MarketClocks'
+  4 | import WorldMap from '../components/WorldMap';
+  5 | import IndicesTable from '../components/IndicesTable';
+> 6 | import MarketClocks from '../components/MarketClocks';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |     const [marketData, setMarketData] = useState([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.140] Server  ERROR   ⨯ ./app/page.js:6:1
+Module not found: Can't resolve '../components/MarketClocks'
+  4 | import WorldMap from '../components/WorldMap';
+  5 | import IndicesTable from '../components/IndicesTable';
+> 6 | import MarketClocks from '../components/MarketClocks';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |     const [marketData, setMarketData] = useState([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.141] Server  ERROR   ⨯ ./app/page.js:6:1
+Module not found: Can't resolve '../components/MarketClocks'
+  4 | import WorldMap from '../components/WorldMap';
+  5 | import IndicesTable from '../components/IndicesTable';
+> 6 | import MarketClocks from '../components/MarketClocks';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |     const [marketData, setMarketData] = useState([]);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.143] Server  ERROR   ⨯ ./app/page.js:4:1
+Module not found: Can't resolve '../components/WorldMap'
+  2 |
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+> 4 | import WorldMap from '../components/WorldMap';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import IndicesTable from '../components/IndicesTable';
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.144] Server  ERROR   ⨯ ./app/page.js:4:1
+Module not found: Can't resolve '../components/WorldMap'
+  2 |
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+> 4 | import WorldMap from '../components/WorldMap';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import IndicesTable from '../components/IndicesTable';
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.146] Server  ERROR   ⨯ ./app/page.js:4:1
+Module not found: Can't resolve '../components/WorldMap'
+  2 |
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+> 4 | import WorldMap from '../components/WorldMap';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import IndicesTable from '../components/IndicesTable';
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.147] Server  ERROR   ⨯ ./app/page.js:4:1
+Module not found: Can't resolve '../components/WorldMap'
+  2 |
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+> 4 | import WorldMap from '../components/WorldMap';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import IndicesTable from '../components/IndicesTable';
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:28:58.154] Server  LOG     ✓ Compiled in 26ms
+[00:28:58.261] Browser ERROR   ./app/page.js:5:1
+Module not found: Can't resolve '../components/IndicesTable'
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+  4 | import WorldMap from '../components/WorldMap';
+> 5 | import IndicesTable from '../components/IndicesTable';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+  8 | export default function Home() {
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:28:58.261] Browser ERROR   ./app/page.js:6:1
+Module not found: Can't resolve '../components/MarketClocks'
+  4 | import WorldMap from '../components/WorldMap';
+  5 | import IndicesTable from '../components/IndicesTable';
+> 6 | import MarketClocks from '../components/MarketClocks';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function Home() {
+  9 |     const [marketData, setMarketData] = useState([]);
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:28:58.261] Browser ERROR   ./app/page.js:4:1
+Module not found: Can't resolve '../components/WorldMap'
+  2 |
+  3 | import React, { useEffect, useState, useCallback } from 'react';
+> 4 | import WorldMap from '../components/WorldMap';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import IndicesTable from '../components/IndicesTable';
+  6 | import MarketClocks from '../components/MarketClocks';
+  7 |
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
